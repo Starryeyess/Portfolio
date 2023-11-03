@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(11 8 52);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #45418d;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 22px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(133, 133, 202);
+    font-size: 1.02rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.first_section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.first_section div1 {
+    width: 30%;
+}
+
+.left_section {
+    font-size: 2.5rem;
+}
+
+.right_section img {
+    width: 80%;
+}
+
+.text_purple {
+    color: rgb(133, 133, 202);
+}
+
+.text_gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(133, 133, 202);
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(133, 133, 202);
+    height: 1px;
+    margin: 40px 84px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_section h1 {
+    font-size: 1.9rem;
+
+}
+
+.body_main {
+    display: flex;
+    align-items: center;
+}
+
+.project_heading {
+    width: 15vw;
+    margin: 0 8px;
+    /* box-sizing: border-box; */
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 8px;
+    transition: width 2s
+}
+
+.project_heading:hover {
+    width: 20vw;
+}
+
+.second_section:hover{
+    background-color: rgb(18, 14, 63);
+}
+
+.second_section .timeline_content {
+    display: flex;
+    justify-content: center;
+    align-items: justify;
+    width: 70vw;
+
+}
+.second_section .timeline {
+    background-color: white;
+    width: 1px;
+    height: 50%;
+    margin-left: 18vw;
+    margin-top: 10vh;
+    /* margin: 56px 0;
+    display: flex; */
+
+}
+
+.project_desc {
+    box-sizing: border-box;
+    width: 70vw;
+    margin: 20px 10px;
+}
+
+.company {
+    box-sizing: border-box;
+    margin: 0 6px;
+}
+
+.start-up {
+    box-sizing: border-box;
+    margin-left: 6px;
+}
+
+.main_body {
+    box-sizing: border-box;
+    margin: 100px 0px;
+}
+
+footer {
+    background-color: #45418d;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 233px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+.footer_first {
+    padding-right: 100px;
+}
+
+footer .footer_rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
